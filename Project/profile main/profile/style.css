@@ -1,0 +1,119 @@
+body{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+     */
+    
+}
+
+.container{
+ padding-bottom: 50px;
+}
+
+.backgroundImg{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(120deg ,purple,blue,gold);
+}
+
+.profile{
+    height: 56vh;
+    width: 28%;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+top:132px;
+left: 520px;
+    position: absolute;
+    background: #fff;
+    box-shadow: -8px -8px 15px  rgba(0, 0, 0, 0.2), 8px 8px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+    
+}
+
+.profilePicture{
+    height:175px;
+    width:175px;
+    background: gray;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px -5px 10px  rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile h3{
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 220px;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 25px;
+    width:28%;   
+    margin-top: 5vh;
+    /* border-radius: 50%; */
+    padding: 3vh;
+    box-shadow: -8px -8px 15px  rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.2);
+cursor: pointer;
+}
+
+.card:hover{
+  border: 2px solid orangered;
+  color: orangered;
+}
+.card img{
+    height: 50px;
+    width: 50px;
+}
+
+#addLink{
+    outline: dashed;
+    color: blue;
+    /* border: 2px solid blue; */
+}
+
+.profile .btn{
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 20px;
+margin-left: 300px;
+font-size: 15px;
+
+}
+
+.profile .btn:hover{
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.profile h2{
+    color: orangered;
+
+}
+
+.profile h3{
+    color: brown;
+}
